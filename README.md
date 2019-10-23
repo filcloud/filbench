@@ -10,6 +10,16 @@ Filecoin 目前正由协议实验室紧张开发中，开发者或矿工可以�
 
 ## Install
 
+The [released binary](https://github.com/filcloud/filbench/releases) can be downloaded:
+
+```sh
+$ wget https://github.com/filcloud/filbench/releases/download/0.0.1/filbench-0.0.1-ubuntu-18.04-amd64.tar.gz
+$ tar zxvf filbench-0.0.1-ubuntu-18.04-amd64.tar.gz
+$ mv filbench /usr/local/bin/
+```
+
+Or, you can clone this project and compile it.
+
 This project depends on [go-filecoin](https://github.com/filecoin-project/go-filecoin) now, so you should ensure that it has been in your `GOPATH` directory.
 
 Then, install filbench:
